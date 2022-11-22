@@ -1,0 +1,19 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  background-color: rgb(74, 147, 167);
+  font-size: 20px;
+}
+
+.navbar {
+  padding-top: 10px;
+}
+
+.nav-item {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
