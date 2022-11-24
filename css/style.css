@@ -6,7 +6,7 @@
 
 .header {
   background-color: rgb(74, 147, 167);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navbar {
@@ -16,4 +16,19 @@
 .nav-item {
   margin-left: 40px;
   margin-bottom: 10px;
+}
+
+.nav-link {
+  color: white!important;
+  padding: 0 5px 0;
+  display: unset;
+}
+.navbar-brand img {
+  width: 250px;
+}
+
+.fa-solid-fa-bars {
+  color: white;
+  font-size: 20px;
+  border: none;
 }
