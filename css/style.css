@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-color: rgb(74, 147, 167);
+  background-color: rgb(47, 60, 109);
   font-size: 16px;
 }
 
@@ -27,8 +27,15 @@
   width: 250px;
 }
 
-.fa-solid-fa-bars {
+.fa-bars {
   color: white;
-  font-size: 20px;
-  border: none;
+  font-size: 25px;
 }
+
+ .nav-link:hover {
+  font-weight: bold;
+ }
+
+ .photo {
+  max-width: 100%;
+ }
