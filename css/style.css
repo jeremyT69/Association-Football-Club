@@ -23,8 +23,9 @@
   padding: 0 5px 0;
   display: unset;
 }
+
 .navbar-brand img {
-  width: 250px;
+  width: 80px;;
 }
 
 .fa-bars {
@@ -36,6 +37,7 @@
   font-weight: bold;
  }
 
- .photo {
-  max-width: 100%;
+ .photo img {
+  width: 100%;
+  max-height: 500px;
  }
