@@ -1,14 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&display=swap');
+
+.redressed {
+  font-family: Redressed, cursive;
+}
+
+.merriweather {
+  font-family: Merriweather,serif;
+}
 
 .menu-navbar {
   background-color: rgb(48, 48, 163);
   font-family: Merriweather, serif;
-  box-shadow: 1px 1px 3px;
+  box-shadow: 1px 1px 3px rgb(255, 145, 0);
 }
 
-.nav-link {
+.menu-navbar .nav-link {
   color:  whitesmoke;
 }
+
+.menu-navbar .nav-link:hover{
+  color: rgb(255, 145, 0);
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 255, 0, 0.5)),
+  url("/img/image-benefices-football-enfants-stage.jpg");
+ background-size: cover;
+ height: 800px;
+} 
 
 .btn-order {
   color:  whitesmoke;
@@ -18,7 +37,7 @@
 
  .btn-order:hover,
  .btn-order:active {
-  color: grey;
+  color: rgb(255, 145, 0);
   background-color: whitesmoke;
  }
 
