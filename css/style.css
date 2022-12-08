@@ -1,67 +1,24 @@
-*
-{
-  margin: 0%;
-  padding: 0%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
-.header {
-  background-color: rgb(47, 60, 109);
-  font-size: 16px;
-}
-
-.navbar {
-  padding-top: 10px;
-}
-
-.nav-item {
-  margin-left: 40px;
-  margin-bottom: 10px;
+.menu-navbar {
+  background-color: rgb(48, 48, 163);
+  font-family: Merriweather, serif;
+  box-shadow: 1px 1px 3px;
 }
 
 .nav-link {
-  color: white!important;
-  padding: 0 5px 0;
-  display: unset;
+  color:  whitesmoke;
 }
 
-.navbar-brand img {
-  width: 80px;;
+.btn-order {
+  color:  whitesmoke;
+  border-color: whitesmoke;
+  transition: 0.5s;
 }
 
-.fa-bars {
-  color: white;
-  font-size: 25px;
-}
-
- .nav-link:hover {
-  font-weight: bold;
+ .btn-order:hover,
+ .btn-order:active {
+  color: grey;
+  background-color: whitesmoke;
  }
 
- .photo img {
-  width: 100%;
-  max-height: 500px;
-  position: relative;
- }
-.title {
-  position: absolute;
-  color: white;
-  margin-left: 8%;
-  left: 8px;
-  top: 30%;
-  font-size: 30px;
-}
-
- .text-over {
-  position: absolute;
-  color: white;
-  margin-left: 8%;
-  right: 65%;
-  top: 40%;
-  font-size: 20px;
- }
-
- .btn {
-  position: absolute;
-  background-color: white;
-  color: black;
- }
