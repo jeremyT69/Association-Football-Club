@@ -109,9 +109,17 @@
   list-style-type: none;
  }
 
+ .footer-bottom hr {
+  font-weight: 700;
+  border: 2px solid #ff9100;
+ }
+
  .footer-bottom p {
   text-align: center;
   color: whitesmoke;
   margin-top: 15px;
   margin-bottom: 0;
  }
+
+ /* css de la page evenements */
+
