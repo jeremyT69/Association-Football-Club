@@ -12,6 +12,7 @@
   background-color: #2F2FA3;
   font-family: Merriweather, serif;
   box-shadow: 1px 1px 3px #ff9100;
+  z-index: 1000;
 }
 
 .menu-navbar .nav-link {
@@ -121,5 +122,14 @@
   margin-bottom: 0;
  }
 
- /* css de la page evenements */
+ /*css de la page evenements*/
+
+
+ /* css de la page inscription*/
+
+.form-contact {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+ 
 
