@@ -12,7 +12,6 @@
   background-color: #2F2FA3;
   font-family: Merriweather, serif;
   box-shadow: 1px 1px 3px #ff9100;
-  z-index: 1000;
 }
 
 .menu-navbar .nav-link {
@@ -25,7 +24,7 @@
 
 .banner {
   background-image:linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),
-  url("/img/image-benefices-football-enfants-stage.jpg");
+  url("/img/img.principal.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 800px;
@@ -124,11 +123,22 @@
 
  /*css de la page evenements*/
 
+.titre-evenements {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ff9100;
+  text-align: center;
+}
+
+.cards {
+  margin-top: 10px;
+}
+
 
  /* css de la page inscription*/
-
-.form-contact {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.contact {
+  background-color: #2F2FA3;
+  margin-top: 10px;
 }
   
  
