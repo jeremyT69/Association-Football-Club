@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .redressed {
   font-family: Redressed, cursive;
 }
@@ -33,26 +38,26 @@
 .col h1 {
   font-size: 45px;
   font-weight: 700;
-  color: whitesmoke;
+  color:#f5f5f5;
 }
 
 .col p {
   font-size: 28px;
   font-weight: 400;
-  color:whitesmoke;
+  color:#f5f5f5;
 }
 
 
 .btn-order {
-  color:  whitesmoke;
-  border-color: whitesmoke;
+  color:  #f5f5f5;
+  border-color: #f5f5f5;
   transition: 0.5s;
 }
 
  .btn-order:hover,
  .btn-order:active {
   color: #ff9100;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
  }
 
  .titre-actions {
@@ -88,13 +93,13 @@
  .footer-title h4 {
   font-size: 25px;
   margin-bottom: 15px;
-  color: whitesmoke;
+  color: #f5f5f5;
  }
 
  .footer-col a {
   padding: 5px 0;
   text-decoration: none;
-  color: whitesmoke;
+  color: #f5f5f5;
  }
 
  .footer-col a:hover {
@@ -109,16 +114,17 @@
   list-style-type: none;
  }
 
- .footer-bottom hr {
-  font-weight: 700;
-  border: 2px solid #ff9100;
+ .footer-bottom .separation {
+  width: 100%;
+  height: 1px;
+  background-color: #ff9100;
  }
 
  .footer-bottom p {
   text-align: center;
-  color: whitesmoke;
-  margin-top: 15px;
-  margin-bottom: 0;
+  color: #f5f5f5;
+  margin: 15px 0 0 0;
+  padding-bottom: 5px;
  }
 
  /*css de la page evenements*/
@@ -136,10 +142,88 @@
 
 
  /* css de la page inscription*/
+
 .contact {
-  background-color: #2F2FA3;
-  margin-top: 10px;
+  padding: 30px;
+  font-weight: 700;
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-  
+
+.corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.corps-formulaire .groupe {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.corps-formulaire .gauche .groupe input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #2F2FA3;
+  outline-color: #ff9100;
+  border-radius: 5px;
+}
+
+.corps-formulaire .gauche .groupe i {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  padding: 9px 8px;
+  color: #ff9100;
+}
+
+.corps-formulaire .droite {
+  margin-left: 40px;
+}
+
+.corps-formulaire .droite .groupe {
+  height: 100%;
+}
+
+.corps-formulaire .droite .groupe textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #2F2FA3;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 83%;
+}
+
+.pieds-formulaire button {
+  margin-top: 10px;
+  background-color: #2F2FA3;
+  color: #f5f5f5;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+
+.pieds-formulaire button:hover {
+  color: #ff9100;
+}
+
+@media screen and (max-width:920px) {
+
+  .contact {
+    display: flex;
+    align-items: flex-start;
+  }
+  .corps-formulaire .droite {
+    margin-left: 0px;
+  }
+}
  
 
