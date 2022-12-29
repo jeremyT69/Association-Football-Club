@@ -30,23 +30,10 @@
 .banner {
   background-image:linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),
   url("/img/img.principal.jpg");
-  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
-  height: 800px;
+  min-height: 90vh;
 } 
-
-.col h1 {
-  font-size: 45px;
-  font-weight: 700;
-  color:#f5f5f5;
-}
-
-.col p {
-  font-size: 28px;
-  font-weight: 400;
-  color:#f5f5f5;
-}
-
 
 .btn-order {
   color:  #f5f5f5;
@@ -73,44 +60,25 @@
 
  .nombres {
   font-size: 48px;
-  padding-bottom: 8px;
   text-decoration: underline solid #ff9100;
   font-weight: 400;
   color: #2F2FA3;
  }
 
- .texte {
-  padding-top: 8px;
-  padding-bottom: 10px;
-  font-size: 20px;
-  font-weight: 500;
- }
-
- .footer {
+ footer {
   background-color: #101057;
  }
 
- .footer-title h4 {
-  font-size: 25px;
-  margin-bottom: 15px;
+ .reseaux-sociaux a {
+  font-size: 20px;
   color: #f5f5f5;
  }
 
- .footer-col a {
-  padding: 5px 0;
-  text-decoration: none;
-  color: #f5f5f5;
- }
-
- .footer-col a:hover {
+ .reseaux-sociaux a:hover {
   color: #ff9100;
  }
 
- .footer-col a.social {
-  font-size: 20px;
- }
-
- .footer-title li {
+footer li {
   list-style-type: none;
  }
 
@@ -128,18 +96,13 @@
  }
 
  /*css de la page evenements*/
+.background-titre-page {
+  background-color: lightgoldenrodyellow;
+}
 
 .titre-evenements {
-  margin-top: 5px;
-  margin-bottom: 5px;
   color: #ff9100;
-  text-align: center;
 }
-
-.cards {
-  margin-top: 10px;
-}
-
 
  /* css de la page inscription*/
 
@@ -215,15 +178,5 @@
   color: #ff9100;
 }
 
-@media screen and (max-width:920px) {
-
-  .contact {
-    display: flex;
-    align-items: flex-start;
-  }
-  .corps-formulaire .droite {
-    margin-left: 0px;
-  }
-}
  
 
