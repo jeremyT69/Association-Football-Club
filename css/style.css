@@ -108,6 +108,10 @@ footer li {
 
 /* css de la page inscription*/
 
+textarea {
+  resize: none;
+}
+
 .btn-form {
   background: #ff9100;
 }
